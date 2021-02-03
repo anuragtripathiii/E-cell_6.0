@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 200px; height: 100px;" id="img-1" src="assets/img/E-Cell.png" alt="" /></a>
+
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <li class="nav-item"><a onclick="closeNav()" class="nav-link js-scroll-trigger" href="#services">About</a></li>
+                <li class="nav-item"><a onclick="closeNav()" class="nav-link js-scroll-trigger" href="#about">History</a></li>
+                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="#alumni">Alumni</a></li>
+                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="gallery.html">Gallery</a></li>
+            </div>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer; color: orange;top: 2%" onclick="openNav()">&#9776; MENU</span>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.height = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+            }
+        </script>
+    </div>
+</nav>
+</body>
+</html>
