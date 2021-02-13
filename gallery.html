@@ -1,687 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>E-Cell</title>
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="css/style2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style4.css">
+    <meta charset="UTF-8">
+    <title>gallery</title>
 
-  <!---       ADDING ANIMATION                      --->
-  <link rel="stylesheet" href="css/animate.css">
-  <link href="css/style3.css" rel="stylesheet"/>
+    <link href="css/style3.css" rel="stylesheet"/>
+    <link href="css/style4.css" rel="stylesheet"/>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background:#000;">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 200px; height: 100px;" id="img-1" src="assets/img/E-Cell.png" alt="" /></a>
+<nav style="margin-top: -30px">
 
+    <ul>
+        <li><a href="#home"><img src="assets/img/E-Cell.png" width="100px"></a></li>
+        <li style="float: right;"><a href="index.html" style="color: orange;width: 20px;margin-left:-68%;margin-top: 10px">Home</a></li>
 
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <li class="nav-item"><a onclick="closeNav()" class="nav-link js-scroll-trigger" href="#services">About</a></li>
-                <li class="nav-item"><a onclick="closeNav()" class="nav-link js-scroll-trigger" href="#about">History</a></li>
-                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="#alumni">Alumni</a></li>
-                <li class="nav-item"><a onclick="closeNav()"class="nav-link js-scroll-trigger" href="gallery.html">Gallery</a></li>
-            </div>
-        </div>
+    </ul>
 
-        <span style="font-size:30px;cursor:pointer; color: orange;top: 2%" onclick="openNav()">&#9776; </span>
-
-        <script>
-            function openNav() {
-                document.getElementById("myNav").style.height = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.height = "0%";
-            }
-        </script>
-    </div>
 </nav>
-<div class="anurag-rocks"; >
+<div style="padding-top: 20px">
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/2.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/2.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/3.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/3.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/4.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/4.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/012.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/012.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/d1.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/d1.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/d2.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/d2.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/d3.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/d3.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/d4.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/d4.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/d5.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/d5.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/ig1.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/ig1.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/ig2.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/ig2.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/ig3.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/ig3.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/ig4.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/ig4.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/j1.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/j1.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/j2.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/j2.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/j3.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/j3.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/j4.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/j4.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o1.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o1.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o2.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o2.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o3.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o3.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o4.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o4.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o5.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o5.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o6.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o6.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o7.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o7.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o8.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o8.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o9.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o9.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o10.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o10.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o11.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o11.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/o12.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/o12.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik1.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik1.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik3.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik3.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik5.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik44.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik9.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik5.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik11.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik9.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik12.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik11.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik13.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik12.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik15.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik13.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik16.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik15.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik17.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik16.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik18.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik17.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik19.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik18.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik21.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik19.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik22.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik21.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik23.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik22.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik24.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik23.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik25.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik24.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik26.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik25.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik27.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik26.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik28.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik27.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik29.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik28.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik30.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik29.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik31.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik30.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik32.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik31.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik33.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik32.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik34.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik33.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik35.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik34.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik36.JPG" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik35.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik37.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik36.JPG" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik40.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik37.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik43.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik40.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik44.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik43.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/pik45.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/pik44.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt1.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+<!--
+    <div class="container1">
+        <img src="assets/img/gallery/pik45.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+    </div>-->
+    <div class="container1">
+        <img src="assets/img/gallery/yt1.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt2.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt2.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
 
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt3.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt3.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt4.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt4.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt5.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt5.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt6.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt6.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt7.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt7.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt8.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt8.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
 
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt9.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt9.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt10.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt10.jpg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt11.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt11.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt12.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt12.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt13.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt13.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="">
-                <img src="assets/img/gallery/yt14.jpeg" alt="Northern Lights" width="600" height="400">
-            </a>
-        </div>
+    <div class="container1">
+        <img src="assets/img/gallery/yt14.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
     </div>
+
+
 
 
 
 </div>
- </body>
+
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+    <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <div class="modal-content">
+        <img id="img01" style="max-width:100%">
+    </div>
+</div>
+
+
+<script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+    }
+</script>
+</body>
 </html>
